@@ -1,0 +1,20 @@
+package javaremed;
+import java.util.StringTokenizer;
+public class TokenDemo {
+    public static void main(String[]args) {
+    	int a,oddcount=0,evencount=0;
+    	StringTokenizer input=new StringTokenizer("2 10 5 8 3 1");
+    	while(input.hasMoreTokens()) {
+    		a=Integer.parseInt(input.nextToken());
+    		if(a%2==0) {
+    			 evencount++;
+    		}
+    		else {
+    			oddcount++;
+    		}
+    	}
+    	System.out.println("Number of even integers="+evencount);
+    	System.out.println("Number of odd integers="+oddcount);
+    	
+    }
+}
