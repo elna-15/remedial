@@ -1,0 +1,13 @@
+package javaremed;
+import java.util.StringTokenizer;
+public class TokenDemo {
+    public static void main(String[]args) {
+    	StringTokenizer string=new StringTokenizer("This is my new java program");
+    	int noOfTokens=string.countTokens();
+    	System.out.println(noOfTokens);
+    	System.out.println("Next Token");
+    	System.out.println(string.nextToken());
+    	System.out.println("Next Token");
+    	System.out.println(string.nextToken());
+    }
+}
