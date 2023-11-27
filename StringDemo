@@ -1,0 +1,12 @@
+package javalab;
+
+public class StringDemo {
+ public static void main(String[]args) {
+	 String str="This is the input data";
+	 char index1=str.charAt(4);
+	 char index2=str.charAt(10);
+	 System.out.println("The charectr at index 4 is " +index1+ " and charector at index 2 is " +index2);
+			 
+	 
+ }
+}
