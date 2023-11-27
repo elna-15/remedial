@@ -1,0 +1,23 @@
+package javalab;
+import java.util.Scanner;
+public class StringDemo {
+ public static void main(String args[]) {
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("Enter the first string");
+	 String str1=sc.nextLine();
+	 System.out.println("Enter the second string");
+	 String str2=sc.nextLine();
+	 int result= str1.compareTo(str2);
+	 if (result<0) {
+		 System.out.println("First string " +str1+" is less than second string " +str2 );
+	 }
+		 else if(result==0)
+		 {
+			 System.out.println("First string " +str1+"is equal to second string " +str2 );
+		 }
+		 else {
+			 System.out.println("First string " +str1+"is  greater than second string " +str2 );
+		 
+		 }
+	 }
+ }
